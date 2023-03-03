@@ -11,11 +11,15 @@ def project(request):
 def demo(request):
     return HttpResponse("Here is our demo project")
 
+def demo2(request):
+    return HttpResponse("Here is our demo project")
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('projects/',projects,name="projects"),
     path('project/',project,name="project"),
     path('demo/',demo,name="demo"),
+    path('demo2/',demo2,name="demo2"),
 
 ]
