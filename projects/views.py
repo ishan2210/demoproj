@@ -7,3 +7,5 @@ def projects(request,pk):
 def project(request,pk):
     return render(request,"single-project.html")
     #return HttpResponse("Single Project"+ " "+str(pk))
+
+
