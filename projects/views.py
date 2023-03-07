@@ -34,7 +34,7 @@ def project(request,pk):
     for i in projectsList:
      if i['id']==pk:
         projectObj=i
-    return render(request,"single-project.html",{'project':projectObj})
+    return render(request,'single-project.html',{'project':projectObj})
     #return HttpResponse("Single Project"+ " "+str(pk))
 
 
