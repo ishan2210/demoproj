@@ -1,6 +1,10 @@
 from django.db import models
 import uuid
 
+
+
+
+
 # Create your models here.
 
 class Projects(models.Model):
@@ -13,4 +17,13 @@ class Projects(models.Model):
 
     def __str__(self):
         return self.title
+  
+
     
+
+    
+
+    
+
+
+
